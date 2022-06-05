@@ -17,8 +17,6 @@ namespace JohanePetStore
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            ResetInputs();
-
             if (!IsPostBack)
             {
                 LoadRecord();
