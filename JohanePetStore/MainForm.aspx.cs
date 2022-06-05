@@ -21,6 +21,9 @@ namespace JohanePetStore
             {
                 LoadRecord();
             }
+            
+            btnUpdate.Enabled = false;
+            btnDelete.Enabled = false;
         }
 
         private void LoadRecord()
